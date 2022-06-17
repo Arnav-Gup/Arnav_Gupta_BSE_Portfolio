@@ -1,12 +1,24 @@
-﻿# Project Name/Title Goes Here
-This will serve as a brief description of your project. Limit this to three sentences because it can become overly long at that point. This copy should draw the user in and make she/him want to read more.
+﻿# Gesture Controlled Car
+ This project features a robot car with an accelerometer and a glove controller with a gyroscope with the ability to affect the car's directions with a simple tilt of the wrist. Using bluetooth HC-05 modules to wirelessly transmit instructions to the car this project makes use of a variety of electrical engineering principles and is a blast to try out.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Firstname Lastname | Current Highschool | Electrical Engineering | Incoming Senior
+| Arnav Gupta | Cupertino High School | Software Engineering | Incoming Junior
 
-![Headstone Image](https://bluestampengineering.com/wp-content/uploads/2016/05/improve.jpg)
-  
+![Headstone Image](https://hackster.imgix.net/uploads/attachments/999480/edited_qR6z8Gq5H1.jpg?auto=compress%2Cformat&w=900&h=675&fit=min)
+
+![Parts Image](https://hackster.imgix.net/uploads/attachments/999489/snapshot253_tUezZh7ncn.png?auto=compress%2Cformat&w=1280&h=960&fit=max)
+# Materials
+* Arduino UNO
+* Arduino Nano R3
+* 2 HC-05 Bluetooth Modules
+* SparkFun Triple Axis Accelerometer and Gyro Breakout - MPU-6050
+* 4 DC Moter, 12V
+* Rubber Wheels
+* Qunqi L298N Moter Drive Controller Board Module Dule H Bridge DC Stepper
+* 9V Battery
+
+
 # Final Milestone
 My final milestone is the increased reliability and accuracy of my robot. I ameliorated the sagging and fixed the reliability of the finger. As discussed in my second milestone, the arm sags because of weight. I put in a block of wood at the base to hold up the upper arm; this has reverberating positive effects throughout the arm. I also realized that the forearm was getting disconnected from the elbow servo’s horn because of the weight stress on the joint. Now, I make sure to constantly tighten the screws at that joint. 
 
