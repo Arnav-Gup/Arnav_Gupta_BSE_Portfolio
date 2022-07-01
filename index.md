@@ -9,28 +9,26 @@
 
 ![Parts Image](https://hackster.imgix.net/uploads/attachments/999489/snapshot253_tUezZh7ncn.png?auto=compress%2Cformat&w=1280&h=960&fit=max)
 # Materials
-* Arduino UNO
-* Arduino Nano R3
-* 2 HC-05 Bluetooth Modules
-* SparkFun Triple Axis Accelerometer and Gyro Breakout - MPU-6050
-* 4 DC Moter, 12V
-* Rubber Wheels
-* Qunqi L298N Moter Drive Controller Board Module Dule H Bridge DC Stepper
-* 9V Battery
+Here is a [List of Materials](https://docs.google.com/spreadsheets/d/1bXbYIsI2RP88eoclDnVj5eQEKvsiCWf7lxlAHQSED3A/edit?usp=sharing).
 
 
 # Final Milestone
-My final milestone is the increased reliability and accuracy of my robot. I ameliorated the sagging and fixed the reliability of the finger. As discussed in my second milestone, the arm sags because of weight. I put in a block of wood at the base to hold up the upper arm; this has reverberating positive effects throughout the arm. I also realized that the forearm was getting disconnected from the elbow servo’s horn because of the weight stress on the joint. Now, I make sure to constantly tighten the screws at that joint. 
+My final milestone is assembling all my separate parts and writing my final code for my gesture controlled robot. My first step was to assemble my robot with the robot framework and setting up the dc motors and wheels. I did this by assembling all of my parts and then soldering my jumper wires so they do not get disconnected. I then hot glued my battery and arduino so that the car is wireless and taped my bluetooth module down. The next step was to put together my glove so I wired my arduino micro and bluetooth module together and taped my accelerometer down. When taping my accelerometer down I needed to tape it upside down so that it would properly fit so in the final code I needed to reverse my directions. In the final code that I wrote it sensed which direction you tilted the accelerometer with a error range of 5. I then printed to the serial monitor w, a, s, or d for which direction the robot should move. This information was received by the bluetooth module on the car and relayed it to the arduino. The arduino then processed this and sent instructions to the motor controller on which way the dc motors should turn. This project taught me so much, from the basics of electrical engineering to in depth knowledge on bluetooth. I believe this can have very important real world applications as being able to wirelessly control robots is the future of tech and can help people who might not be able to physically operate robots or controllers. 
 
-[![Final Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612573869/video_to_markdown/images/youtube--F7M7imOVGug-c05b58ac6eb4c4700831b2b3070cd403.jpg )](https://www.youtube.com/watch?v=F7M7imOVGug&feature=emb_logo "Final Milestone"){:target="_blank" rel="noopener"}
+[![Final Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612573869/video_to_markdown/images/youtube--F7M7imOVGug-c05b58ac6eb4c4700831b2b3070cd403.jpg )](https://www.youtube.com/watch?v=F7M7imOVGug&feature=emb_logo "Arnav's Final Milestone"){:target="_blank" rel="noopener"}
+
+# Third Milestone
+My third milestone is getting my motor controller and DC motors set up. I could not power my dc motor controller just by the 5 Volts that the arduino outputs so I plugged in a separate battery pack that can output 6 Volts. To eliminate power from being lost or an unstable connection I soldered my wires to the copper tabs on the dc motors. This took a lot of time because I had to make sure I did not burn the copper while putting enough solder to keep the connection secure. The cables that I used were jumper cables with the ends of the wires stripped off. I did this so I had more wire to work with and put inside the screw terminals on the motor controller. The screw terminals represent how the dc motors are powered and which wire is connected to ground. This process is called the H bridge and if you reverse the wires in the H bridge you can change the direction the wheels turn. The motor controller also manages the speed of the wheels by using a system called pulse width modulation or commonly known as pwm. This is a system where the arduino sends square waves of consistent frequency but changes the wavelength which is related to the time in between the peaks of the waves. When it reaches a peak of a wave that is when power is given to the wheels and so by changing the time in between you can thus affect the speed. 
+
+[![Third Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612574014/video_to_markdown/images/youtube--y3VAmNlER5Y-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=y3VAmNlER5Y&feature=emb_logo "Arnav's Third Milestone"){:target="_blank" rel="noopener"}
 
 # Second Milestone
-My final milestone is the increased reliability and accuracy of my robot. I ameliorated the sagging and fixed the reliability of the finger. As discussed in my second milestone, the arm sags because of weight. I put in a block of wood at the base to hold up the upper arm; this has reverberating positive effects throughout the arm. I also realized that the forearm was getting disconnected from the elbow servo’s horn because of the weight stress on the joint. Now, I make sure to constantly tighten the screws at that joint.
+My second milestone was setting up my accelerometer and getting it to print values. The accelerometer works by using IC2 protocol to read what value you want to hear from (x, y, or z) and then refreshes your request. What this means is that using the Adafruit library you can measure how much you tilt the accelerometer in any direction and return this value to the arduino. This code uses the SCL and SDA pins to communicate with the accelerometer and I will use this in my final project to read the user's gestures and which direction they tilt their wrist.
 
-[![Third Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612574014/video_to_markdown/images/youtube--y3VAmNlER5Y-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=y3VAmNlER5Y&feature=emb_logo "Second Milestone"){:target="_blank" rel="noopener"}
+[![Second Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612574014/video_to_markdown/images/youtube--y3VAmNlER5Y-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=y3VAmNlER5Y&feature=emb_logo "Arnav's Second Milestone"){:target="_blank" rel="noopener"}
+
+
 # First Milestone
-  
-
-My first milestone was setting up and hooking up the Raspberry Pi and all the necessary components onto my tv. The heatsinks, the sd card, and the controller were all added to ensure that the Raspberry Pi was working. Instead of the Raspberry Pi Os software, I had to first download a different software called Retro Pie. With Retro Pie, I needed to download an Imager for Raspberry Pi. Raspberry Pi Imager automatically downloads a list of the latest versions of Raspbian supported by the Raspberry Pi. Raspbian is the typical Raspberry Pi Os software, the one I needed on the Raspberry Pi was Retro Pi. With the included SD card, I plugged in the SD into my computer and launched the Imager. The imager allowed me to set the Operating System to Retro Pi instead of Raspbian onto the SD card. With the OS imaged onto the SD, I plugged the SD card back into the Raspberry Pi and rebooted the system and Retro Bi booted up.
-
-[![First Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612574117/video_to_markdown/images/youtube--CaCazFBhYKs-c05b58ac6eb4c4700831b2b3070cd403.jpg)]([https://www.youtube.com/watch?v=CaCazFBhYKs](https://youtu.be/aD_ejw0PmUQ) "First Milestone"){:target="_blank" rel="noopener"}
+My first milestone is setting up my bluetooth modules and binding them together and then testing them with a button and a led. I binded my bluetooth modules by putting them in AT mode and making one module the slave and making one the master module. They communicate over the Rx and Tx lines and the baud rate or rate of communication is 38400 for these modules. I then set up the button for one arduino and a led for another and communicated over the bluetooth modules when to turn the led on or off. I figured out how to do this by using the serial monitor and printing values across arduinos.
+My first milest
+[![First Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1656439828/video_to_markdown/images/youtube--CaCazFBhYKs-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=aD_ejw0PmUQ "Arnav's First Milestone")
