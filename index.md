@@ -9,7 +9,7 @@
 
 ![Parts Image](https://hackster.imgix.net/uploads/attachments/999489/snapshot253_tUezZh7ncn.png?auto=compress%2Cformat&w=1280&h=960&fit=max)
 # Materials
-Here is a [List of Materials](https://docs.google.com/spreadsheets/d/1bXbYIsI2RP88eoclDnVj5eQEKvsiCWf7lxlAHQSED3A/edit?usp=sharing).
+Here is a [List of Materials](https://docs.google.com/spreadsheets/d/1ZENtVtG4XW8agSRHn98dvI3Iegi4U5U8XJovx9Xg_Fs/edit?usp=sharing).
 
 
 # Final Milestone
@@ -25,10 +25,10 @@ My third milestone is getting my motor controller and DC motors set up. I could 
 # Second Milestone
 My second milestone was setting up my accelerometer and getting it to print values. The accelerometer works by using IC2 protocol to read what value you want to hear from (x, y, or z) and then refreshes your request. What this means is that using the Adafruit library you can measure how much you tilt the accelerometer in any direction and return this value to the arduino. This code uses the SCL and SDA pins to communicate with the accelerometer and I will use this in my final project to read the user's gestures and which direction they tilt their wrist.
 
-[![Second Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612574014/video_to_markdown/images/youtube--y3VAmNlER5Y-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=y3VAmNlER5Y&feature=emb_logo "Arnav's Second Milestone"){:target="_blank" rel="noopener"}
+[![Second Milestone][![Arnav's Second Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1656718265/video_to_markdown/images/youtube--5d76lhZAEwQ-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=5d76lhZAEwQ "Arnav's Second Milestone")
 
 
 # First Milestone
 My first milestone is setting up my bluetooth modules and binding them together and then testing them with a button and a led. I binded my bluetooth modules by putting them in AT mode and making one module the slave and making one the master module. They communicate over the Rx and Tx lines and the baud rate or rate of communication is 38400 for these modules. I then set up the button for one arduino and a led for another and communicated over the bluetooth modules when to turn the led on or off. I figured out how to do this by using the serial monitor and printing values across arduinos.
-My first milest
-[![Arnav's First Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1656707342/video_to_markdown/images/youtube--aD_ejw0PmUQ-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=aD_ejw0PmUQ "Arnav's First Milestone")
+
+[![First Milestone][![Arnav's First Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1656707342/video_to_markdown/images/youtube--aD_ejw0PmUQ-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=aD_ejw0PmUQ "Arnav's First Milestone")
