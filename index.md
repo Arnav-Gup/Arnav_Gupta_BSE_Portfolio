@@ -42,8 +42,9 @@ My first milestone is setting up my bluetooth modules and binding them together 
 
 <details>
 <summary>
+ <h3>
 Robot Car Code
-
+ </h3>
 </summary>
 
 ```
@@ -147,7 +148,9 @@ void freeze(){
 
  <details>
  <summary>
+  <h3>
  Robot Car Glove
+  <h/3>
  </summary>
  ````
  #include <Wire.h>
