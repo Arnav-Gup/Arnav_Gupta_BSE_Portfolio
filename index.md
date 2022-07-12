@@ -150,7 +150,7 @@ void freeze(){
  <summary>
   <h3>
  Robot Car Glove
-  <h/3>
+  </h3>
  </summary>
  ````
  #include <Wire.h>
