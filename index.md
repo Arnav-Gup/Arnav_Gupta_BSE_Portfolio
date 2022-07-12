@@ -10,7 +10,8 @@
 </p>
 
 # Materials
- **Here is a [List of Materials](https://docs.google.com/spreadsheets/d/1ZENtVtG4XW8agSRHn98dvI3Iegi4U5U8XJovx9Xg_Fs/edit?usp=sharing).**
+**Here is a [List of Materials](https://docs.google.com/spreadsheets/d/1ZENtVtG4XW8agSRHn98dvI3Iegi4U5U8XJovx9Xg_Fs/edit?usp=sharing).**
+ 
 <img src="https://hackster.imgix.net/uploads/attachments/999489/snapshot253_tUezZh7ncn.png?auto=compress%2Cformat&w=1280&h=960&fit=max" width=400>
 
 # Final Milestone
@@ -32,3 +33,9 @@ My second milestone was setting up my accelerometer and getting it to print valu
 My first milestone is setting up my bluetooth modules and binding them together and then testing them with a button and a led. I binded my bluetooth modules by putting them in AT mode and making one module the slave and making one the master module. They communicate over the Rx and Tx lines and the baud rate or rate of communication is 38400 for these modules. I then set up the button for one arduino and a led for another and communicated over the bluetooth modules when to turn the led on or off. I figured out how to do this by using the serial monitor and printing values across arduinos.
 
 [![Arnav's First Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1656707342/video_to_markdown/images/youtube--aD_ejw0PmUQ-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=aD_ejw0PmUQ "Arnav's First Milestone")
+
+# Scimatics and Code
+
+<p align="center">
+<img src ="https://raw.githubusercontent.com/Arnav-Gup/BlueStamps-Engineering-Portfolio/gh-pages/guesture_car_scim.png" width=400>
+</p>
