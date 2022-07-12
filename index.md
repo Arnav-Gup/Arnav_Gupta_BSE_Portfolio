@@ -43,11 +43,11 @@ My first milestone is setting up my bluetooth modules and binding them together 
 <details>
 <summary>
  <h3>
-Robot Car Code
+Robot Glove Code
  </h3>
 </summary>
 
-```
+``` javascript
 //change based on motor pins
 int motor1f = 6; //in1
 int motor1b = 7; //in2
@@ -144,16 +144,15 @@ void freeze(){
 ```
 
 </details>
+<details>
+<summary>
+ <h3>
+Robot Car Code
+ </h3>
+</summary>
 
-
- <details>
- <summary>
-  <h3>
- Robot Car Glove
-  </h3>
- </summary>
- ````
- #include <Wire.h>
+``` javascript
+#include <Wire.h>
 #include <Adafruit_Sensor.h>
 #include <Adafruit_ADXL345_U.h>
 
@@ -208,5 +207,6 @@ void loop(void)
   }
   delay(300);
 }
- ````
- </details>
+```
+
+</details>
