@@ -6,13 +6,13 @@
 | Arnav Gupta | Cupertino High School | Software Engineering | Incoming Junior
 
 <p align="center">
-<img src ="https://hackster.imgix.net/uploads/attachments/999480/edited_qR6z8Gq5H1.jpg?auto=compress%2Cformat&w=900&h=675&fit=min" width=400>
+<img src ="https://hackster.imgix.net/uploads/attachments/999480/edited_qR6z8Gq5H1.jpg?auto=compress%2Cformat&w=900&h=675&fit=min">
 </p>
 
 # Materials
 **Here is a [List of Materials](https://docs.google.com/spreadsheets/d/1ZENtVtG4XW8agSRHn98dvI3Iegi4U5U8XJovx9Xg_Fs/edit?usp=sharing).**
  
-<img src="https://hackster.imgix.net/uploads/attachments/999489/snapshot253_tUezZh7ncn.png?auto=compress%2Cformat&w=1280&h=960&fit=max" width=400>
+<img src="https://hackster.imgix.net/uploads/attachments/999489/snapshot253_tUezZh7ncn.png?auto=compress%2Cformat&w=1280&h=960&fit=max">
 
 # Final Milestone
 My final milestone is assembling all my separate parts and writing my final code for my gesture controlled robot. My first step was to assemble my robot with the robot framework and setting up the dc motors and wheels. I did this by assembling all of my parts and then soldering my jumper wires so they do not get disconnected. I then hot glued my battery and arduino so that the car is wireless and taped my bluetooth module down. The next step was to put together my glove so I wired my arduino micro and bluetooth module together and taped my accelerometer down. When taping my accelerometer down I needed to tape it upside down so that it would properly fit so in the final code I needed to reverse my directions. In the final code that I wrote it sensed which direction you tilted the accelerometer with a error range of 5. I then printed to the serial monitor w, a, s, or d for which direction the robot should move. This information was received by the bluetooth module on the car and relayed it to the arduino. The arduino then processed this and sent instructions to the motor controller on which way the dc motors should turn. This project taught me so much, from the basics of electrical engineering to in depth knowledge on bluetooth. I believe this can have very important real world applications as being able to wirelessly control robots is the future of tech and can help people who might not be able to physically operate robots or controllers. 
@@ -37,7 +37,7 @@ My first milestone is setting up my bluetooth modules and binding them together 
 # Scimatics and Code
 
 <p align="center">
-<img src ="https://raw.githubusercontent.com/Arnav-Gup/BlueStamps-Engineering-Portfolio/gh-pages/guesture_car_scim.png" width=400>
+<img src ="https://raw.githubusercontent.com/Arnav-Gup/BlueStamps-Engineering-Portfolio/gh-pages/guesture_car_scim.png">
 </p>
 
 <details>
