@@ -55,5 +55,6 @@ My first milestone is setting up my bluetooth modules and binding them together 
 **Robot Car [Code](https://raw.githubusercontent.com/Arnav-Gup/BlueStamps-Engineering-Portfolio/gh-pages/robotCar.ino)**
 
 **Robot Glove [Code](https://raw.githubusercontent.com/Arnav-Gup/BlueStamps-Engineering-Portfolio/a5e58382cad3d4e58ee1ba68742d2fac543020dc/robotGlove.ino)**
-
-<img src ="https://raw.githubusercontent.com/BlueStampEng/BSE_Template_Portfolio/main/branding/BlueStamp-Logo.svg">
+<p align="center">
+  <img src ="https://raw.githubusercontent.com/BlueStampEng/BSE_Template_Portfolio/main/branding/BlueStamp-Logo.svg">
+</p>
