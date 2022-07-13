@@ -1,4 +1,4 @@
-<img src ="https://github.com/BlueStampEng/BSE_Template_Portfolio/raw/main/branding/BlueStamp%20Engineering%20Logo%20Black.jpg">
+<img src ="https://raw.githubusercontent.com/BlueStampEng/BSE_Template_Portfolio/main/branding/BlueStamp-Logo.svg">
 
 # Gesture Controlled Car
 This project features a robot car with an accelerometer and a glove controller with a gyroscope with the ability to affect the car's directions with a simple tilt of the wrist. Using bluetooth HC-05 modules to wirelessly transmit instructions to the car this project makes use of a variety of electrical engineering principles and is a blast to try out.
@@ -54,6 +54,6 @@ My first milestone is setting up my bluetooth modules and binding them together 
 <img src ="https://raw.githubusercontent.com/Arnav-Gup/BlueStamps-Engineering-Portfolio/gh-pages/guesture_car_scim.png">
 </p>
 
-**Robot Car [Code](https://github.com/Arnav-Gup/BlueStamps-Engineering-Portfolio/blob/a5e58382cad3d4e58ee1ba68742d2fac543020dc/robotCar.ino)**
+**Robot Car [Code](https://raw.githubusercontent.com/Arnav-Gup/BlueStamps-Engineering-Portfolio/gh-pages/robotCar.ino)**
 
-**Robot Glove [Code](https://github.com/Arnav-Gup/BlueStamps-Engineering-Portfolio/blob/a5e58382cad3d4e58ee1ba68742d2fac543020dc/robotGlove.ino)**
+**Robot Glove [Code](https://raw.githubusercontent.com/Arnav-Gup/BlueStamps-Engineering-Portfolio/a5e58382cad3d4e58ee1ba68742d2fac543020dc/robotGlove.ino)**
