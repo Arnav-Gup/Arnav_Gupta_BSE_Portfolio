@@ -1,4 +1,4 @@
-<img src ="https://github.com/BlueStampEng/BSE_Template_Portfolio/blob/de8633f62b5da2234992a0178a6a72fd6df7e7e1/branding/BlueStamp-Engineering-Logo-White.png?raw=true">
+<img src ="https://github.com/BlueStampEng/BSE_Template_Portfolio/raw/main/branding/BlueStamp%20Engineering%20Logo%20Black.jpg">
 
 # Gesture Controlled Car
 This project features a robot car with an accelerometer and a glove controller with a gyroscope with the ability to affect the car's directions with a simple tilt of the wrist. Using bluetooth HC-05 modules to wirelessly transmit instructions to the car this project makes use of a variety of electrical engineering principles and is a blast to try out.
